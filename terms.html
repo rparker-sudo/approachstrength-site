@@ -3,21 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark light" />
+  <meta name="color-scheme" content="dark" />
   <title>Terms · Approach Strength</title>
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/site.css" />
 </head>
 <body>
-  <main class="legal">
-    <header class="site-header">
-      <a href="/" class="lockup" aria-label="Approach Strength home">
-        <picture>
-          <source srcset="/assets/lockup-plain-on-light.svg" media="(prefers-color-scheme: light)" />
-          <img src="/assets/lockup-plain-on-dark.svg" alt="Approach Strength" width="200" height="40" />
-        </picture>
-      </a>
-    </header>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="/" class="lockup"><img class="lockup-screen" src="/assets/lockup-plain-on-dark.svg" alt="Approach Strength" width="206" height="40" /><img class="lockup-print" src="/assets/lockup-plain-on-light.svg" alt="" width="206" height="40" /></a>
+      <nav class="nav-desktop" aria-label="Main"><a href="/features">Features</a><a href="/pricing">Pricing</a><a href="/safety">Safety</a><a href="/admin-preview">For administrators</a><a class="button" href="https://app.approachstrength.com">Log in</a></nav>
+      <details class="menu">
+        <summary><span class="menu-icon" aria-hidden="true"></span>Menu</summary>
+        <nav class="menu-panel" aria-label="Main"><a href="/features">Features</a><a href="/pricing">Pricing</a><a href="/safety">Safety</a><a href="/admin-preview">For administrators</a><a class="button" href="https://app.approachstrength.com">Log in</a></nav>
+      </details>
+    </div>
+  </header>
+  <main id="main" class="legal">
+    <div class="wrap wrap-read">
     <h1>Terms (Soft Launch)</h1>
     <p><em>Last updated: November 15, 2026</em></p>
     <ol>
@@ -45,9 +49,13 @@
       <li><strong>Limits.</strong> To the extent the law allows, Approach Strength is provided "as is," without warranties, and we aren't liable for indirect or consequential damages. Nothing in these Terms limits liability that can't be limited by law, including for gross negligence or willful misconduct.</li>
       <li><strong>Contact:</strong> ryan@approachstrength.com</li>
     </ol>
-    <footer class="site-footer">
-      <nav><a href="/">Home</a><a href="/privacy">Privacy Notice</a><a href="/terms">Terms</a><a href="/consent">Parent consent form</a><a href="mailto:ryan@approachstrength.com">ryan@approachstrength.com</a></nav>
-    </footer>
+    </div>
   </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer"><a href="/privacy">Privacy</a><span aria-hidden="true"> · </span><a href="/terms">Terms</a><span aria-hidden="true"> · </span><a href="/consent">Parent consent form</a><span aria-hidden="true"> · </span><a href="mailto:ryan@approachstrength.com">ryan@approachstrength.com</a></nav>
+      <p class="owner">© 2026 Ryan Parker · Approach Strength™ · Free during the pilot.</p>
+    </div>
+  </footer>
 </body>
 </html>

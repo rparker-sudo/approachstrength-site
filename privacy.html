@@ -3,21 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark light" />
+  <meta name="color-scheme" content="dark" />
   <title>Privacy Notice · Approach Strength</title>
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/site.css" />
 </head>
 <body>
-  <main class="legal">
-    <header class="site-header">
-      <a href="/" class="lockup" aria-label="Approach Strength home">
-        <picture>
-          <source srcset="/assets/lockup-plain-on-light.svg" media="(prefers-color-scheme: light)" />
-          <img src="/assets/lockup-plain-on-dark.svg" alt="Approach Strength" width="200" height="40" />
-        </picture>
-      </a>
-    </header>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="/" class="lockup"><img class="lockup-screen" src="/assets/lockup-plain-on-dark.svg" alt="Approach Strength" width="206" height="40" /><img class="lockup-print" src="/assets/lockup-plain-on-light.svg" alt="" width="206" height="40" /></a>
+      <nav class="nav-desktop" aria-label="Main"><a href="/features">Features</a><a href="/pricing">Pricing</a><a href="/safety">Safety</a><a href="/admin-preview">For administrators</a><a class="button" href="https://app.approachstrength.com">Log in</a></nav>
+      <details class="menu">
+        <summary><span class="menu-icon" aria-hidden="true"></span>Menu</summary>
+        <nav class="menu-panel" aria-label="Main"><a href="/features">Features</a><a href="/pricing">Pricing</a><a href="/safety">Safety</a><a href="/admin-preview">For administrators</a><a class="button" href="https://app.approachstrength.com">Log in</a></nav>
+      </details>
+    </div>
+  </header>
+  <main id="main" class="legal">
+    <div class="wrap wrap-read">
     <h1>Privacy Notice</h1>
     <p><em>Last updated: November 15, 2026</em></p>
     <p>Approach Strength is a free volleyball strength-training web app in an early test, run by Ryan Parker. This notice explains what we collect and why.</p>
@@ -47,9 +51,13 @@
     <p><strong>Service providers.</strong> Supabase (database and login), GitHub Pages (hosts the website and app), and Zoho Mail (our email, including copies of signed consent forms). They process data only to provide their service to us.</p>
     <p><strong>Keeping and deleting.</strong> We keep your data while your account is active. Delete your account anytime in Settings → Delete my account; it's removed within 30 days. Parents can ask for deletion through the coach or the email below. We keep a short <strong>proof record</strong> of consent (who agreed to what, when, and which coach recorded it, plus the signed form copy) and of coach supervision on testing days (team, coach, date, who took part) for 5 years after an account closes. It contains no workout, check-in, or test results, and then it's deleted.</p>
     <p><strong>Questions or requests:</strong> ryan@approachstrength.com</p>
-    <footer class="site-footer">
-      <nav><a href="/">Home</a><a href="/privacy">Privacy Notice</a><a href="/terms">Terms</a><a href="/consent">Parent consent form</a><a href="mailto:ryan@approachstrength.com">ryan@approachstrength.com</a></nav>
-    </footer>
+    </div>
   </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer"><a href="/privacy">Privacy</a><span aria-hidden="true"> · </span><a href="/terms">Terms</a><span aria-hidden="true"> · </span><a href="/consent">Parent consent form</a><span aria-hidden="true"> · </span><a href="mailto:ryan@approachstrength.com">ryan@approachstrength.com</a></nav>
+      <p class="owner">© 2026 Ryan Parker · Approach Strength™ · Free during the pilot.</p>
+    </div>
+  </footer>
 </body>
 </html>

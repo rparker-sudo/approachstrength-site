@@ -3,21 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark light" />
+  <meta name="color-scheme" content="dark" />
   <title>Parent consent form · Approach Strength</title>
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/site.css" />
 </head>
 <body>
-  <main class="legal">
-    <header class="site-header">
-      <a href="/" class="lockup" aria-label="Approach Strength home">
-        <picture>
-          <source srcset="/assets/lockup-plain-on-light.svg" media="(prefers-color-scheme: light)" />
-          <img src="/assets/lockup-plain-on-dark.svg" alt="Approach Strength" width="200" height="40" />
-        </picture>
-      </a>
-    </header>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="/" class="lockup"><img class="lockup-screen" src="/assets/lockup-plain-on-dark.svg" alt="Approach Strength" width="206" height="40" /><img class="lockup-print" src="/assets/lockup-plain-on-light.svg" alt="" width="206" height="40" /></a>
+      <nav class="nav-desktop" aria-label="Main"><a href="/features">Features</a><a href="/pricing">Pricing</a><a href="/safety">Safety</a><a href="/admin-preview">For administrators</a><a class="button" href="https://app.approachstrength.com">Log in</a></nav>
+      <details class="menu">
+        <summary><span class="menu-icon" aria-hidden="true"></span>Menu</summary>
+        <nav class="menu-panel" aria-label="Main"><a href="/features">Features</a><a href="/pricing">Pricing</a><a href="/safety">Safety</a><a href="/admin-preview">For administrators</a><a class="button" href="https://app.approachstrength.com">Log in</a></nav>
+      </details>
+    </div>
+  </header>
+  <main id="main" class="legal">
+    <div class="wrap wrap-read">
     <p class="print">Print this page (or save it as a PDF), have a parent or guardian check the boxes and sign, and give it to the coach.</p>
     <p class="muted">Approach Strength: Volleyball Fitness</p>
     <h1>Parent/Guardian Consent for an Athlete Under 18 (Form v2)</h1>
@@ -52,9 +56,13 @@
     <p>You can withdraw any choice or ask us to delete your athlete's account and data at any time. Tell the coach, or email <strong>ryan@approachstrength.com</strong>. Your athlete can also delete their account in the app (Settings → Delete my account). Deleted data is removed within 30 days. We keep a short record of what you agreed to, and of coach supervision on testing days, for 5 years after the account closes, as proof. That record contains no workout, check-in, or test results.</p>
     <p><strong>Parent/guardian signature:</strong> <span class="line"></span> <strong>Date:</strong> <span class="line"></span></p>
     <p><em>Coach: keep the signed form, and send a copy (photo or scan) to ryan@approachstrength.com. Then record exactly the boxes checked in the app (Team → athlete → Record parent consent, form v2). Approach Strength keeps copies for 5 years after the account closes, as proof of consent. Before collecting forms, accept the Coach Terms in the app and get written approval from your school (athletic director or principal) or club director to use Approach Strength with your team. Email us a copy (Terms §4; for Ryan's team, the signed AD/principal approval).</em></p>
-    <footer class="site-footer">
-      <nav><a href="/">Home</a><a href="/privacy">Privacy Notice</a><a href="/terms">Terms</a><a href="/consent">Parent consent form</a><a href="mailto:ryan@approachstrength.com">ryan@approachstrength.com</a></nav>
-    </footer>
+    </div>
   </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer"><a href="/privacy">Privacy</a><span aria-hidden="true"> · </span><a href="/terms">Terms</a><span aria-hidden="true"> · </span><a href="/consent">Parent consent form</a><span aria-hidden="true"> · </span><a href="mailto:ryan@approachstrength.com">ryan@approachstrength.com</a></nav>
+      <p class="owner">© 2026 Ryan Parker · Approach Strength™ · Free during the pilot.</p>
+    </div>
+  </footer>
 </body>
 </html>

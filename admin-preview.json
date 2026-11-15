@@ -1,0 +1,13 @@
+{
+  "_source": "docs/design/marketing-site.md §5.2 (fixed sample data; every number is invented; team totals only)",
+  "teams": [
+    { "name": "Varsity Volleyball", "sport": "Volleyball", "athletes": 16, "coach": "Coach A.", "phase": "In-season", "program": "Volleyball program",
+      "consent": [15, 16], "weeks": [52, 58, 61, 55, 63, 60], "consistency": 88, "goal": [412, 500], "testing_days": 2, "supervision": 2 },
+    { "name": "JV Volleyball", "sport": "Volleyball", "athletes": 18, "coach": "Coach B.", "phase": "In-season", "program": "Volleyball program",
+      "consent": [16, 18], "weeks": [48, 54, 57, 60, 56, 62], "consistency": 82, "goal": [386, 480], "testing_days": 2, "supervision": 2 },
+    { "name": "Boys Volleyball", "sport": "Volleyball", "athletes": 14, "coach": "Coach C.", "phase": "Preseason", "program": "Volleyball program",
+      "consent": [12, 14], "weeks": [40, 43, 47, 45, 49, 51], "consistency": 79, "goal": [301, 400], "testing_days": 1, "supervision": 1 },
+    { "name": "Basketball (example)", "sport": "Example sport", "athletes": 12, "coach": "Coach D.", "phase": "—", "program": "Example only",
+      "consent": [10, 12], "weeks": [30, 34, 33, 38, 36, 40], "consistency": 75, "goal": [210, 300], "testing_days": 0, "supervision": 0 }
+  ]
+}

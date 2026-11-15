@@ -1,0 +1,9 @@
+{
+  "label": "Planned price. May change. Free during the pilot.",
+  "tiers": [
+    { "id": "athlete", "name": "Athlete", "prices": ["$9.99/month", "$29.99 per 4-month season", "$69.99/year"] },
+    { "id": "coach-starter", "name": "Coach Starter", "prices": ["$399/year", "$49/month"], "limits": "1 team, up to 35 athletes" },
+    { "id": "coach-pro", "name": "Coach Pro", "prices": ["$799/year", "$99/month"], "limits": "up to 5 teams, 120 athletes" },
+    { "id": "organization", "name": "Organization", "status": "Later", "prices": ["$2,995/year"] }
+  ]
+}
